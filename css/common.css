@@ -1,0 +1,40 @@
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: rgb(57, 5, 5);
+    --background-color: #f82764;
+    --dark-background-color: #222222;
+}
+
+h1 {
+    color: var(--text-color);
+}
+
+h3 {
+    color: blue;
+    width: 50%;
+
+}
+
+h3:hover {
+    text-decoration: underline;
+}
+
+h3::first-letter {
+    color: var(--light-background-color);
+}
+
+.product-card .product-card__description {
+    color: var(--dark-background-color);
+}
+
+p {
+    color: var(--light-background-color);
+}
+
