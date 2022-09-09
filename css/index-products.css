@@ -1,0 +1,15 @@
+h2 {
+    color: rgb(234, 32, 207);
+}
+
+h2::first-letter {
+    color: rgb(255, 0, 21);
+}
+
+h3 {
+    color: cyan;
+}
+
+h3::first-letter {
+    color: black;
+}

@@ -1,9 +1,8 @@
-*/
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(34, 96, 210);
 }
 
 :root {
@@ -13,11 +12,11 @@
 }
 
 h1 {
-    color: var(--text-color);
+    color: #f82764;
 }
 
 h3 {
-    color: blue;
+    color: rgb(41, 165, 243));
     width: 50%;
 
 }
