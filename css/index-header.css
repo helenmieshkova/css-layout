@@ -1,3 +1,30 @@
+.header {
+    background-color: var(--bg-color);
+    padding: 5px;
+}
+
+.header-nav__logo {
+    font-size: 3.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
 .header-nav__menu-item {
     display: block;
+    color: var(--text-color);
+    text-decoration: none;
+
+}
+
+.header-nav__menu-item:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 500px) {
+
+    .header-nav > .container {
+        display: flex;
+    }
 }
