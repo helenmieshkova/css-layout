@@ -19,7 +19,7 @@
 }
 
 h1 {
-    color: #f82764;
+    color: var(--text-color);
 }
 
 img {
