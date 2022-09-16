@@ -13,6 +13,11 @@
     font-family: 'DotGothic16', sans-serif;
 }
 
+.container {
+    max-width: 980px;
+    margin: auto;
+}
+
 h1 {
     color: #f82764;
 }
