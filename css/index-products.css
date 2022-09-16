@@ -1,15 +1,32 @@
-h2 {
-    color: rgb(234, 32, 207);
+.product-card {
+    border: 1px solid var(--text-color);
+    padding: 5px;
 }
 
-h2::first-letter {
-    color: rgb(255, 0, 21);
+@media (min-width: 600px) {
+
+    .main-products__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+
+    }
 }
 
-h3 {
-    color: cyan;
+@media (min-width: 600px) {
+
+    .main-products__list {
+        grid-template-columns: 1fr 1fr 1fr;
+    
+
+    }
 }
 
-h3::first-letter {
-    color: black;
+@media (min-width: 800px) {
+
+    .main-products__list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+
+    }
 }
